@@ -28,18 +28,18 @@
 
 //Save Player's 1st Score For Today (start) 
       window.todayScoreStr = "0";
-      //window.alert("Start Score: " + todayScoreStr);//
+      window.alert("Start Score: " + todayScoreStr);//
 
       window.SavePlayerTodayScore = function (str)
       {
           if(str == "no")
           {
-              //window.alert("Score already saved for today!");//
+              window.alert("Score already saved for today!");//
           }
           else if (str != "no")
           {
             window.todayScoreStr = str;
-            //window.alert("Today's first score: " + todayScoreStr);//
+            window.alert("Today's first score: " + todayScoreStr);//
             //Call The API Here!
             
           }
